@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               fdlane
+tagline:             developer
+url:                 http://fdlane.com
 paginate:            1
 baseurl:             ""
 
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              F. DeWayne Lane
+  url:               https://twitter.com/fdlane
+  email:             dewayne@fdlane.com
 
 # Custom vars
 version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+github:              https://github.com/fdlane
+  repo:              https://github.com/fdlane.github.io
 
 # Gems
 gems:
