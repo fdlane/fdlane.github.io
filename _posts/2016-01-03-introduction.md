@@ -13,7 +13,6 @@ There are currently three themes built on Poole:
 
 * [Hyde](http://hyde.getpoole.com)
 * [Lanyon](http://lanyon.getpoole.com)
-* [Enfield](http://enfield.getpoole.com)
 
 Learn more and contribute on [GitHub]({{ site.github.repo }}).
 
