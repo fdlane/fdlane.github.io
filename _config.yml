@@ -3,16 +3,17 @@ permalink:        pretty
 
 # Setup
 title:            fdlane
-tagline:          'developer'
-description:      'Christian, husband, father, developer -- Applies technology to process'
-url:              http://fdane.com
+tagline:          'applies technology to process'
+description:      'Christian, husband, father, developer.'
+url:              http://fdlane.com
 baseurl:          /
 
 author:
   name:           'F. DeWayne Lane'
   url:            https://twitter.com/fdlane
 
-paginate:         3
+destination:       ../blog
+paginate:         5
 
 # Custom vars
 version:          0.0.1
@@ -20,6 +21,8 @@ version:          0.0.1
 github:
   repo:           https://github.com/fdlane/fdlane.github.io
 
+
+# Gems
 gems:
   - jekyll-paginate
   - jekyll-gist

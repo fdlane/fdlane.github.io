@@ -3,5 +3,4 @@ layout: page
 title: About
 ---
 
-
-## Some stuff
+new stuff in the about 
