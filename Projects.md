@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+weight: 2
 ---
 
 ## VBSmgr MS Access
