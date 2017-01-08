@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-## VBS Mgr
+## VBSmgr MS Access
 
 This is a pet project originally written as a MS Access application in 2003 for my local church to manage their Vacation Bible School. The Church has a GIANT VACATION BIBLE SCHOOL event each year and needed a way to track the Children, Workers, Buses, Classes, and Neighborhoods.
 
@@ -19,8 +19,7 @@ Features
 - VBS Manager :: MS Access
 - The VBS Manager MS Access version is free and can be used to manage your Vacation Bible School Event.
 
-### Download
-Getting Started with VbsMgr MS Access
+[Getting Started with VbsMgr MS Access](/projects/vbsmgr-ms-access/)
 
 ### VBS Manager :: Web App
 The VBS Manager Web App version is deployed only as a demo and prototype. Some user testing has been done, but the application has not been used to manage an event.  If the application would be helpful to your church, please contact me about deploying a copy for you.

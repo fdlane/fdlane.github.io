@@ -12,7 +12,7 @@ author:
   name:           'F. DeWayne Lane'
   url:            https://twitter.com/fdlane
 
-destination:       ../blog
+paginate_path:   'blog/page:num/' 
 paginate:         5
 
 # Custom vars
