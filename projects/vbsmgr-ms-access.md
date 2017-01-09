@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page-not-in-nav
 title: VBSmgr MS Access
 ---
-## Overview
-
 This version of the VBS Manager solution is a MS Access application that consists of two database files. A User Interface database and Backend database where the data is stored.
 
 The User Interface or Front End of the application is named `VbsMgr.mdb`. This is the file that users will open. All users can open the same database file or a copy can be saved on each users’ machine.
