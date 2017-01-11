@@ -18,6 +18,9 @@ paginate:         5
 # Custom vars
 version:          0.0.1
 
+# Google services
+google_analytics: 'UA-90202336-1'
+
 github:
   repo:           https://github.com/fdlane/fdlane.github.io
 
