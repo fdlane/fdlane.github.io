@@ -9,7 +9,7 @@ The User Interface or Front End of the application is named `VbsMgr.mdb`. This i
 Your data is stored in a file named `VbsMgr_BE.mdb`. The `_BE` portion of the file name is used to indicate the ‘Backend’ of the application. This is where all your data is stored and SHOULD be routinely backed up.
 
 ## Installation steps
-1. Download the VbsMgr.zip file
+1. [Download VbsMgr.zip](https://cdn.rawgit.com/fdlane/vbsmgr-ms-access/be70ac31/VbsMgr.zip) 
 1. Unzip to a location on your harddrive. These instructions assume the location is  `c:\fdlane\vbsmgr\`
 1. Open file `c:\fdlane\vbsmgr\VbsMgr.mdb`
 1. On the MS Access top menu,  select Database Tools, Linked Table Manager
