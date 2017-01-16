@@ -1,6 +1,7 @@
 ---
-layout: page-not-in-nav
+layout: page
 title: VBSmgr MS Access
+showInNav: false
 ---
 This version of the VBS Manager solution is a MS Access application that consists of two database files. A User Interface database and Backend database where the data is stored.
 

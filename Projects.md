@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+showInNav: true
 weight: 2
 ---
 
