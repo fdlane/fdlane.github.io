@@ -284,6 +284,9 @@ tbody tr:nth-child(odd) th {
  *
  * Center the page content.
  */
+.container-no {
+   max-width:max-content !important;
+}
 
 .container {
   max-width: 38rem;
