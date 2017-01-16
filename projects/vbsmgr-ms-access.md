@@ -3,7 +3,26 @@ layout: page
 title: VBSmgr MS Access
 showInNav: false
 ---
-This version of the VBS Manager solution is a MS Access application that consists of two database files. A User Interface database and Backend database where the data is stored.
+
+This is a pet project originally written as a MS Access application in 2003 for my local church to manage their Vacation Bible School. The Church has a GIANT VACATION BIBLE SCHOOL event each year and needed a way to track the Children, Workers, Buses, Classes, and Neighborhoods.
+
+Features
+- Track attendance for children and workers
+- Bus roster report
+- Class roster report
+- Manage Bus capacities
+- Manage Classroom capacities
+- Manage Bus routes by neighborhood
+- Track Special Needs such as food allergies
+- Print Child badges, color coded by age range
+
+>### VBS Manager :: Web App
+>The VBS Manager Web App version is deployed only as a demo and prototype. Some user testing has been done, but the application has not been used to manage an event.  If the application would be helpful to your church, please contact me about deploying a copy for you. [Live Demo](http://missnancy.apphb.com/)
+>
+>The source code of this version is available on [GitHub](https://github.com/fdlane/MissNancy).  If you are the tech savvy kind, feel free to fork the project and deploy.
+
+### VBS Manager :: MS Access
+The VBS Manager MS Access version is free and can be used to manage your Vacation Bible School Event. The solution is a MS Access application that consists of two database files. A User Interface database and Backend database where the data is stored.
 
 The User Interface or Front End of the application is named `VbsMgr.mdb`. This is the file that users will open. All users can open the same database file or a copy can be saved on each users’ machine.
 
