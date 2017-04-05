@@ -5,11 +5,7 @@ showInNav: true
 weight: 10
 ---
 
-``` js
-function (){
 
-}
-```
 
 
 <img class="ui small left floated image"  alt="F. DeWayne Lane" src="/images/profile-sm.jpg">
