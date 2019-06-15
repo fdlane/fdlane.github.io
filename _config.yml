@@ -6,7 +6,7 @@ title:            FDLane
 tagline:          'applies technology to process'
 description:      'Christian, Husband, Father, Developer'
 url:              https://www.fdlane.com
-baseurl:          /
+baseurl:          
 
 author:
   name:           'F. DeWayne Lane'
