@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="/">
           {{ site.title }}
         </a>
       </h1>
@@ -10,25 +10,19 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+      {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter.
+      See readme
+      for usage. {% endcomment %} {% assign pages_list = site.pages | sort:"weight" %} {% for node in pages_list %}
+      {% if node.title != null %} {% if node.showInNav == true %}
+      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
+        href="{{ node.url }}">{{ node.title }}</a> {% endif %} {% endif %} {% endfor %}
+    </nav>
+    <a href="https://github.com/fdlane" target="_blank"><span
+        class="icon icon--github">{% include icon-github.svg %}</span></a>
 
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
+    <a href="https://twitter.com/fdlane" target="_blank"><span
+        class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>
 
-      {% assign pages_list = site.pages | sort:"weight"  %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.showInNav == true %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-   </nav>
-   <a href="https://github.com/fdlane" target="_blank"><span class="icon icon--github">{% include icon-github.svg %}</span></a>
-  
-   <a href="https://twitter.com/fdlane" target="_blank"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>
-  
   </div>
 </div>
