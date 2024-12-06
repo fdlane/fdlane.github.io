@@ -23,9 +23,3 @@ google_analytics: 'UA-90202336-1'
 
 github:
   repo:           https://github.com/fdlane/fdlane.github.io
-
-
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist

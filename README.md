@@ -1,38 +1,31 @@
 # Personal site
 
-Built with Jekyll, Poole, Hyde theme, and Docker on Windows machine
+Built with Jekyll, Poole, Hyde theme, and Docker.
 
+## Prerequisites
 
-`
-docker run --rm --name=jekyll --label=jekyll --volume=c:/git/:/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll:pages bash
-`
-`
-docker start jekyll && docker attach jekyll
-`
+You will need the following things properly installed on your computer.
 
-`
- jekyll s --incremental --force_polling
-`
-https://github.com/napcs/node-livereload
+* [Git](https://git-scm.com/)
+* [VSCode (or other editor with Markdown preview)](https://code.visualstudio.com/)
+* [Docker (optional)](https://docker.com/)
 
+## Installation
 
-![Alt text](https://g.gravizo.com/source/custom_mark2?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Fmaster%2FREADME.md)
-<!---
-custom_mark2
-@startuml
-object Object01
-object Object02
-object Object03
-object Object04
-object Object05
-object Object06
-object Object07
-object Object08
+* `git clone <repository-url>` this repository
+* `cd fdlane.github.io`
 
-Object01 <|-- Object02
-Object03 *-- Object04
-Object05 o-- "4" Object06
-Object07 .. Object08 : some labels2
-@enduml
-custom_mark2
--->
+## Running / Development
+
+* `docker compose up`
+* Visit your app at [http://localhost:4000](http://localhost:4000).
+
+### Deploying
+
+Push to `main` of fdlane.github.io
+
+## Further Reading / Useful Links
+
+* [Github Pages](https://pages.github.com/)
+* [Jekyll for Github Pages](http://jekyllrb.com/docs/github-pages/)
+* [Convert Bootstrap template to Jekyll site (video)](https://youtu.be/TRTmAlNA92c)
