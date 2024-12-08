@@ -8,9 +8,11 @@ weight: 10
 
 I am, first and foremost, a Christian striving to follow Jesus Christ. I am the husband of Staci, the father of four, and an active instrument-rated pilot.
 
-I am a developer currently working for [Knoxville Utilities Board](https://www.kub.org){:target="_blank"}, where I create custom web applications and integrations for both internal and external customers. We specialize in technologies such as Kubernetes, Oracle, SQL Server, Java, MQ Series, and ElasticSearch on the server-side, and extensive use of JavaScript on the client-side. I enjoy developing web applications using EmberJs and the ESRI JavaScript API.
+I currently work as a developer for [Knoxville Utilities Board](https://www.kub.org){:target="_blank"}, where I help design and create custom web applications and integrations for both internal and external customers. My work involves technologies such as Kubernetes, Oracle, SQL Server, Java, MQ Series, and ElasticSearch on the server side, along with extensive use of JavaScript on the client side. I particularly enjoy developing web applications using Ember.js.
 
-As much as I enjoy developing, I also love spending time on the lake or in the sky with my family and friends.
+In addition, I am a founding member of [SevereClear, LLC](https://www.severclear.dev){:target="_blank"}, a software development agency dedicated to delivering modern web applications and custom integrations.
+
+While I am passionate about development, I also love spending time on the lake or in the sky with my family and friends.
 
 ### Contact
 
