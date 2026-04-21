@@ -1,44 +1,263 @@
----
-layout: default
-title: Home
-weight: 1
----
-
-<div class="page">
-  <h1 class="page-title">F. DeWayne Lane</h1>
-  <p>
-    DeWayne is currently a developer at
-    <a href="https://www.kub.org" target="_blank">Knoxville Utilities Board</a>,
-    specializing in creating custom web applications and integrations for both
-    internal and external customers.
-  </p>
-  <p>
-    If you're interested in joining the team, explore internship and full-time
-    opportunities at
-    <a
-      href="https://www.kub.org/careers"
-      target="_blank"
-    >www.kub.org/careers</a>.
-  </p>
-
-  <p>
-    <img
-      src="./images/severe-clear-logo.jpg"
-      alt="SevereClear Logo"
-      class="ui small left floated image"
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F. DeWayne Lane — Software Developer</title>
+    <meta
+      name="description"
+      content="F. DeWayne Lane — Software developer specializing in line-of-business web applications and custom integrations. Founding member of SevereClear, LLC."
     />
-  </p>
+    <meta name="theme-color" content="#0a1628" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.fdlane.com/" />
+    <meta property="og:title" content="F. DeWayne Lane — Software Developer" />
+    <meta
+      property="og:description"
+      content="Software developer specializing in line-of-business web applications and custom integrations."
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body class="bg-navy-900 text-white font-sans antialiased scroll-smooth">
+    <!-- Nav -->
+    <nav
+      class="fixed top-0 left-0 right-0 z-50 bg-navy-900/90 backdrop-blur-sm border-b border-white/10"
+    >
+      <div class="max-w-5xl mx-auto flex items-center justify-between px-6 py-4">
+        <a href="/" class="text-xl font-bold tracking-tight hover:text-accent transition-colors">
+          fdlane
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-sm text-gray-300">
+          <a href="/" class="text-white transition-colors">Home</a>
+          <a href="/about.html" class="hover:text-white transition-colors">About</a>
+          <a
+            href="mailto:dewayne@fdlane.com"
+            class="hover:text-accent transition-colors font-semibold text-accent"
+          >Contact</a>
+        </div>
+        <button
+          id="menu-toggle"
+          class="md:hidden text-gray-300 hover:text-white"
+          aria-label="Toggle menu"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden border-t border-white/10 px-6 pb-4">
+        <a href="/" class="block py-2 text-white transition-colors">Home</a>
+        <a
+          href="/about.html"
+          class="block py-2 text-gray-300 hover:text-white transition-colors"
+        >About</a>
+        <a href="mailto:dewayne@fdlane.com" class="block py-2 text-accent font-semibold">Contact</a>
+      </div>
+    </nav>
 
-  <p>
-    DeWayne is a founding member of
-    <a href="https://www.severeclear.dev" target="_blank">SevereClear, LLC</a>,
-    a software development agency that specializes in modern web applications
-    and custom integrations.
-  </p>
-  <p>
-    Leveraging cloud-based technologies, SevereClear delivers secure, scalable
-    and user-focused solutions to power robust line-of-business applications.
-    Their solutions are tailored to meet each client’s unique needs with
-    precision and dependability.
-  </p>
-</div>
+    <!-- Hero -->
+    <section class="relative min-h-screen flex items-center justify-center px-6 pt-20">
+      <div class="absolute inset-0 bg-gradient-to-b from-navy-800/50 to-navy-900"></div>
+      <div class="relative z-10 max-w-3xl text-center">
+        <img
+          src="/assets/images/profile-sm.jpg"
+          alt="F. DeWayne Lane"
+          class="mx-auto mb-8 h-32 w-32 rounded-full shadow-2xl shadow-accent/20 object-cover"
+          width="128"
+          height="128"
+        />
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
+          Software that helps you
+          <span class="text-accent">do your work</span>
+        </h1>
+        <p class="mt-6 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+          Line-of-business applications that remove friction, simplify complexity, and let your team
+          focus on what actually matters — getting the job done.
+        </p>
+        <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="mailto:dewayne@fdlane.com"
+            class="inline-block rounded-lg bg-accent px-8 py-3 text-base font-semibold text-navy-900 hover:bg-accent-light transition-colors"
+          >
+            Get in Touch
+          </a>
+          <a
+            href="/about.html"
+            class="inline-block rounded-lg border border-white/20 px-8 py-3 text-base font-semibold hover:border-white/40 transition-colors"
+          >
+            About Me
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- What I Do -->
+    <section id="what-i-do" class="py-24 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">What I Do</h2>
+        <p class="text-gray-400 text-center max-w-2xl mx-auto mb-16">
+          I build the tools teams rely on every day. The tech stack is chosen to fit the problem,
+          not the other way around.
+        </p>
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div
+            class="rounded-xl bg-navy-800 border border-white/5 p-8 hover:border-accent/30 transition-colors"
+          >
+            <div
+              class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent"
+            >
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">LOB Applications</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Custom line-of-business applications built to match your workflows and drive daily
+              operations.
+            </p>
+          </div>
+
+          <div
+            class="rounded-xl bg-navy-800 border border-white/5 p-8 hover:border-accent/30 transition-colors"
+          >
+            <div
+              class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent"
+            >
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Integrations</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Connect existing systems and data sources into a unified platform that eliminates
+              silos and manual processes.
+            </p>
+          </div>
+
+          <div
+            class="rounded-xl bg-navy-800 border border-white/5 p-8 hover:border-accent/30 transition-colors"
+          >
+            <div
+              class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent"
+            >
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Cloud Solutions</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Scalable cloud-based architectures that grow with your business. Designed, deployed,
+              and maintained for performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SevereClear -->
+    <section class="py-24 px-6 bg-navy-800/50">
+      <div class="max-w-5xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+          <img
+            src="/assets/images/severe-clear-logo.jpg"
+            alt="SevereClear Logo"
+            class="h-32 w-32 rounded-2xl shadow-2xl shadow-accent/20 flex-shrink-0"
+            width="128"
+            height="128"
+          />
+          <div>
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+              <a
+                href="https://www.severeclear.dev"
+                target="_blank"
+                class="hover:text-accent transition-colors"
+              >SevereClear, LLC</a>
+            </h2>
+            <p class="text-gray-400 leading-relaxed mb-4">
+              I am the founding member of SevereClear, LLC — a software development consultancy
+              focused on modern web applications and custom integrations.
+            </p>
+            <p class="text-gray-400 leading-relaxed">
+              Leveraging cloud-based technologies, SevereClear delivers secure, scalable, and
+              user-focused solutions that power line-of-business applications. Each engagement is
+              tailored to meet the client's unique needs with precision and dependability.
+            </p>
+            <a
+              href="https://www.severeclear.dev"
+              target="_blank"
+              class="inline-block mt-6 rounded-lg border border-white/20 px-6 py-2 text-sm font-semibold hover:border-white/40 transition-colors"
+            >
+              Visit severeclear.dev
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 px-6">
+      <div class="max-w-2xl mx-auto text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4">Let's Talk</h2>
+        <p class="text-gray-400 mb-10 leading-relaxed">
+          Have a project in mind or a process that could be better? I'd like to hear about it.
+        </p>
+        <a
+          href="mailto:dewayne@fdlane.com"
+          class="inline-block rounded-lg bg-accent px-10 py-4 text-lg font-semibold text-navy-900 hover:bg-accent-light transition-colors"
+        >
+          dewayne@fdlane.com
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-8 px-6">
+      <div
+        class="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500"
+      >
+        <p>&copy; 2026 F. DeWayne Lane</p>
+        <div class="flex items-center gap-6">
+          <a
+            href="https://github.com/fdlane"
+            target="_blank"
+            class="hover:text-gray-300 transition-colors"
+          >GitHub</a>
+          <a
+            href="mailto:dewayne@fdlane.com"
+            class="hover:text-gray-300 transition-colors"
+          >dewayne@fdlane.com</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("menu-toggle").addEventListener("click", function () {
+      document.getElementById("mobile-menu").classList.toggle("hidden"); });
+      document.querySelectorAll("#mobile-menu a").forEach(function (link) {
+      link.addEventListener("click", function () {
+      document.getElementById("mobile-menu").classList.add("hidden"); }); });
+    </script>
+  </body>
+</html>

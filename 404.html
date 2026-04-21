@@ -1,10 +1,36 @@
----
-layout: default
-title: "404: Page not found"
-permalink: 404.html
----
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 — F. DeWayne Lane</title>
+    <meta name="theme-color" content="#0a1628" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body
+    class="bg-navy-900 text-white font-sans antialiased min-h-screen flex items-center justify-center px-6"
+  >
+    <div class="text-center">
+      <p class="text-accent text-lg font-semibold mb-2">404</p>
+      <h1 class="text-4xl sm:text-5xl font-bold mb-4">Page not found</h1>
+      <p class="text-gray-400 mb-8">The page you're looking for doesn't exist or has been moved.</p>
+      <a
+        href="/"
+        class="inline-block rounded-lg bg-accent px-8 py-3 text-base font-semibold text-navy-900 hover:bg-accent-light transition-colors"
+      >
+        Back to Home
+      </a>
+    </div>
+  </body>
+</html>
+--- layout: default title: "404: Page not found" permalink: 404.html ---
 
-<div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry the page does not exists. Return to <a href="/">homepage</a>.</p>  
+<div class="flex flex-col items-center justify-center py-24 text-center">
+  <h1 class="text-6xl font-bold text-white mb-4">404</h1>
+  <p class="text-xl text-slate-400 mb-8">Page not found</p>
+  <a href="/" class="text-white underline hover:text-slate-300 transition">
+    Return home
+  </a>
 </div>
