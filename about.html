@@ -1,0 +1,156 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About — F. DeWayne Lane</title>
+    <meta
+      name="description"
+      content="About F. DeWayne Lane — Christian, husband, father, developer, and pilot."
+    />
+    <meta name="theme-color" content="#0a1628" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body class="bg-navy-900 text-white font-sans antialiased scroll-smooth">
+    <!-- Nav -->
+    <nav
+      class="fixed top-0 left-0 right-0 z-50 bg-navy-900/90 backdrop-blur-sm border-b border-white/10"
+    >
+      <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+        <a href="/" class="flex items-center gap-3">
+          <img
+            src="/assets/images/severe-clear-logo.jpg"
+            alt="Logo"
+            class="h-10 w-10 rounded-lg"
+            width="40"
+            height="40"
+          />
+          <span class="text-xl font-bold tracking-tight">fdlane</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-sm text-gray-300">
+          <a href="/" class="hover:text-white transition-colors">Home</a>
+          <a href="/about.html" class="text-white transition-colors">About</a>
+          <a
+            href="mailto:dewayne@fdlane.com"
+            class="hover:text-accent transition-colors font-semibold text-accent"
+          >Contact</a>
+        </div>
+        <button
+          id="menu-toggle"
+          class="md:hidden text-gray-300 hover:text-white"
+          aria-label="Toggle menu"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden border-t border-white/10 px-6 pb-4">
+        <a href="/" class="block py-2 text-gray-300 hover:text-white transition-colors">Home</a>
+        <a href="/about.html" class="block py-2 text-white transition-colors">About</a>
+        <a href="mailto:dewayne@fdlane.com" class="block py-2 text-accent font-semibold">Contact</a>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <section class="pt-32 pb-24 px-6">
+      <div class="max-w-3xl mx-auto">
+        <div class="flex flex-col sm:flex-row items-start gap-8 mb-12">
+          <img
+            src="/assets/images/profile-sm.jpg"
+            alt="F. DeWayne Lane"
+            class="w-36 h-36 rounded-2xl object-cover shadow-2xl shadow-accent/20 flex-shrink-0"
+            width="144"
+            height="144"
+          />
+          <div>
+            <h1 class="text-3xl sm:text-4xl font-bold mb-4">About Me</h1>
+            <p class="text-gray-400 leading-relaxed">
+              I am, first and foremost, a Christian striving to follow Jesus Christ. I am the
+              husband of Staci, the father of four, and an instrument-rated pilot.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-6 text-gray-400 leading-relaxed">
+          <p>
+            I am a software developer focused on building line-of-business web applications and
+            custom integrations. My work spans internal tools, workflow automation, and
+            customer-facing platforms — with a tech stack that varies to fit each project's needs.
+          </p>
+          <p>
+            I am the founding member of
+            <a
+              href="https://www.severeclear.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-accent hover:text-accent-light transition-colors"
+            >SevereClear, LLC</a>, a software development consultancy dedicated to delivering
+            modern, cloud-based solutions with precision and dependability.
+          </p>
+          <p>
+            While I am passionate about development, I also love spending time on the lake or in the
+            sky with my family and friends.
+          </p>
+        </div>
+
+        <div class="mt-16 pt-12 border-t border-white/10">
+          <h2 class="text-2xl font-bold mb-6">Contact</h2>
+          <ul class="space-y-3 text-gray-400">
+            <li>
+              <a
+                href="mailto:dewayne@fdlane.com"
+                class="text-accent hover:text-accent-light transition-colors"
+              >dewayne@fdlane.com</a>
+            </li>
+            <li>
+              GitHub:
+              <a
+                href="https://github.com/fdlane"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-accent hover:text-accent-light transition-colors"
+              >fdlane</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-8 px-6">
+      <div
+        class="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500"
+      >
+        <p>&copy; 2026 F. DeWayne Lane</p>
+        <div class="flex items-center gap-6">
+          <a
+            href="https://github.com/fdlane"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:text-gray-300 transition-colors"
+          >GitHub</a>
+          <a
+            href="mailto:dewayne@fdlane.com"
+            class="hover:text-gray-300 transition-colors"
+          >dewayne@fdlane.com</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("menu-toggle").addEventListener("click", function () {
+      document.getElementById("mobile-menu").classList.toggle("hidden"); });
+      document.querySelectorAll("#mobile-menu a").forEach(function (link) {
+      link.addEventListener("click", function () {
+      document.getElementById("mobile-menu").classList.add("hidden"); }); });
+    </script>
+  </body>
+</html>

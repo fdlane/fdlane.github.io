@@ -1,31 +1,82 @@
-# Personal site
+# fdlane.github.io
 
-Built with Jekyll, Poole, Hyde theme, and Docker.
+Personal site for [fdlane.com](https://www.fdlane.com/), hosted on GitHub Pages.
+
+## Tech Stack
+
+- Static HTML
+- [Tailwind CSS v4](https://tailwindcss.com/) (compiled via standalone CLI)
+- GitHub Pages (deployment)
+
+## Local Development
+
+### 1. Download the Tailwind standalone CLI (one-time setup)
+
+```bash
+curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64
+chmod +x tailwindcss-linux-x64
+```
+
+### 2. Build CSS
+
+```bash
+./tailwindcss-linux-x64 -i src/input.css -o assets/css/styles.css --minify
+```
+
+Or watch for changes during development:
+
+```bash
+./tailwindcss-linux-x64 -i src/input.css -o assets/css/styles.css --watch
+```
+
+### 3. Serve locally
+
+```bash
+python3 -m http.server 8080
+```
+
+Then open [http://localhost:8080](http://localhost:8080/). Refresh after file changes.
+
+## Deployment
+
+Push to the `main` branch. GitHub Pages will serve the site automatically (Jekyll is disabled via `.nojekyll`).
+
+Remember to rebuild CSS before committing if you changed any Tailwind classes or the input CSS.
+
+## Project Structure
+
+```
+index.html              Main site — hero, services, SevereClear
+about.html              About page
+404.html                Custom 404 page
+CNAME                   Custom domain config
+.nojekyll               Disables Jekyll processing
+src/
+  input.css             Tailwind input (theme config)
+assets/
+  css/styles.css        Compiled Tailwind output
+  images/               Profile photo, logos
+```
+
+# fdlane.github.io
+
+Personal site built with Jekyll and Tailwind CSS, hosted on GitHub Pages.
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+- [Git](https://git-scm.com/)
+- [Docker](https://docker.com/)
 
-* [Git](https://git-scm.com/)
-* [VSCode (or other editor with Markdown preview)](https://code.visualstudio.com/)
-* [Docker (optional)](https://docker.com/)
+## Running Locally
 
-## Installation
+```bash
+docker compose up
+```
 
-* `git clone <repository-url>` this repository
-* `cd fdlane.github.io`
+Visit [http://localhost:4000](http://localhost:4000).
 
-## Running / Development
+Jekyll watches for file changes and rebuilds automatically. Refresh the browser to see updates.
 
-* `docker compose up`
-* Visit your app at [http://localhost:4000](http://localhost:4000).
+## Deploying
 
-### Deploying
-
-Push to `main` of fdlane.github.io
-
-## Further Reading / Useful Links
-
-* [Github Pages](https://pages.github.com/)
-* [Jekyll for Github Pages](http://jekyllrb.com/docs/github-pages/)
-* [Convert Bootstrap template to Jekyll site (video)](https://youtu.be/TRTmAlNA92c)
+Push to the `main` branch. GitHub Pages builds and deploys automatically.
